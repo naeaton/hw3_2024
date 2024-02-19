@@ -133,7 +133,6 @@ nav a:hover, nav a:focus{
 
 .container{
   display: grid;
-  place-items: center;
   grid-template-columns: 1fr 5fr 1fr;
   gap: 15px;
 }
@@ -150,6 +149,7 @@ first div in the grid  and place it in the grid. */
   height: 400px;   /* Parallax effect */
   width: 100%;
   background-image: url("../images/header.jpg");
+  position: relative;
 }
 
 
@@ -194,6 +194,7 @@ first div in the grid  and place it in the grid. */
 
 .text-block{
   text-align: center;
+  margin: auto;
 }
 /* Add your media query here */
 @media(min-width: 800px) {
